@@ -1,25 +1,16 @@
-var itensClasse = document.getElementsByClassName('item');
+//QuerySelectorALL 
 
-console.log(itensClasse);
+var itensquery = document.querySelectorAll('#lista2 li ');
+console.log(itensquery);
 
-// querySelectorAll
-var itensQuery = document.querySelectorAll('#lista2 li');
+var itensquerys2 = document.querySelectorAll('#lista li ')
+console.log(itensquerys2);
 
-console.log(itensQuery);
+//QuerySelector
 
-var itensQuery2 = document.querySelectorAll('#lista .item');
-
-console.log(itensQuery2);
-
-// querySelector
 var lista = document.querySelector('#lista');
-
 console.log(lista);
 
-var primeiraLista = document.querySelector('ul');
+var primeiralista = document.querySelector('ul');
+console.log(primeiralista)
 
-console.log(primeiraLista);
-
-var span = document.querySelector('#paragrafo span');
-
-console.log(span);
