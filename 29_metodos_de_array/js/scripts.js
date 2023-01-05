@@ -15,13 +15,14 @@ arr.pop();
 console.log(arr);
 
 // unshift
+//remove o ultimo
 arr.unshift(0);
 arr.unshift('teste');
 
 console.log(arr);
 
 // shift
-arr.shift();
+arr.shift(1);
 
 console.log(arr);
 

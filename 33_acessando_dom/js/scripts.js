@@ -1,18 +1,18 @@
-// tag
-var titulo = document.getElementsByTagName('h1')[0];
+// tag 
 
-console.log(titulo);
+var title = document.getElementsByTagName('h1')[0];
+console.log(title);
 
 var lis = document.getElementsByTagName('li');
+console.log(lis[3]);
 
-console.log(lis);
+//Id 
 
-// id
 var paragrafo = document.getElementById('paragrafo');
 
 console.log(paragrafo);
 
-// class
-var itensDaLista = document.getElementsByClassName('item');
+//Class
+var lista = document.querySelector('.lista');
+console.log(lista);
 
-console.log(itensDaLista);

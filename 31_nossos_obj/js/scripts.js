@@ -1,18 +1,13 @@
 let pessoa = {
-  nome: "Matheus",
-  idade: 29,
-  falar: function() {
-    console.log("Olá, tudo bem?");
-  },
-  soma: function(a, b) {
-    return a + b;
-  }
-};
+  nome:"Caio",
+  idade:18,
+  fala : function(){console.log
+    ("Ola mundo, tudo bem ? ")}, 
+soma: function(a,b){console.log(a + b)   }
+}
 
 console.log(pessoa.nome);
 
-pessoa.falar();
+pessoa.fala();
 
-var soma = pessoa.soma(2, 2);
-
-console.log(soma);
+pessoa.soma(5,9);

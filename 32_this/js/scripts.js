@@ -29,8 +29,11 @@ pessoa.aniversario();
 pessoa.aniversario();
 pessoa.aniversario();
 
+
 console.log(pessoa.idade);
 
 var sdc = pessoa.saudacao();
 
 console.log("Olá " + sdc);
+//referenciada ao windons 
+// 
