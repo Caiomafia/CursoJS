@@ -1,4 +1,9 @@
 // toLowerCase e toUpperCase
+/*
+Deixa a frase em caixa alta ou normal 
+
+
+*/ 
 
 var frase = "Esta é a frase que vamos manipular";
 
@@ -10,8 +15,16 @@ console.log(fraseCaixaAlta.toLowerCase());
 
 
 // trim
+/*
 
-var nome = "        Matheus     ";
+forma de normalizar o espaço incorreto em forms 
+
+
+
+
+
+*/
+var nome = "        Caio     ";
 
 var nomeTrim = nome.trim();
 
@@ -19,12 +32,17 @@ console.log(nome);
 console.log(nomeTrim);
 
 // split
+/*
+forma de seperar um array , no exemplo abaixo
+*/
+console.log(" exec split")
+
 
 console.log(frase.split(" "));
 
-var tags = "PHP, JavaScript, HTML, CSS";
+let techs = "PHP , js ,react , CSS ";
 
-console.log(tags.split(", "));
+console.log(techs.split(" , "))
 
 // lastIndexOf
 
