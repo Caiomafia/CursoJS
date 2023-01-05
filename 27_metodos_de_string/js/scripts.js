@@ -12,18 +12,31 @@ console.log(obj.length);
 
 console.log(nome[2]);
 
-var frase = "O rato roeu a roupa do rei de Roma";
+var frase = "No mundo só exite um rei ";
 
-console.log(frase.indexOf("roeu"));
+
+console.log('resposta indexOF')
+console.log(frase.indexOf("rei"));
 
 // slice
 
-var roeu = frase.slice(7, 11);
 
-console.log(roeu);
+/*Remove a palavra de acordo com sua numeração vinda do indexOf exemplo 
+no indexof a palavra começa no 21 e termina no 24 colocando essa informação consifo remover a palavra  */ 
+
+
+let rei = frase.slice(21,24);
+console.log('resposta do slice')
+
+
+
+console.log(rei);
 
 // replace
 
-var novaFrase = frase.replace("roeu", "teste");
 
-console.log(novaFrase);
+/*faz a troca de uma palavra pro outra */ 
+
+let trocareplace = frase.replace("rei","deus")
+
+console.log(trocareplace);
