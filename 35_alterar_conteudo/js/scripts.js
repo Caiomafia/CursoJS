@@ -1,12 +1,13 @@
 // selecionar elemento
-var title = document.querySelector("#title");
+let title = document.querySelector(' .title');
 
+
+let subtitle = document.querySelector('.subtitle');
 // innerHTML
-title.innerHTML = "Testando o texto alterado!";
+
+title.innerHTML = "Texto alterado";
+
 
 // textContent -> mais utilizado, recomendando e performático
-var subtitle = document.querySelector(".subtitle");
 
-console.log(subtitle);
-
-subtitle.textContent = "Testando o textContent";
+subtitle.textContent = "Esse segundo foi alterado"

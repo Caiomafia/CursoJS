@@ -1,28 +1,38 @@
-// inserir o elemento no body
+// Criando 
 var novoParagrafo = document.createElement("p");
 
-var texto = document.createTextNode("Este é o conteúdo do paragráfo");
 
-novoParagrafo.appendChild(texto);
+//Criando text 
 
-console.log(novoParagrafo);
+var text = document.createTextNode("Esse text vai dentro de p ");
+
+novoParagrafo.appendChild(text)
+
+console.log(novoParagrafo)
+
+console.log("testando...")
 
 var body = document.querySelector("body");
 
-console.log(body);
-
 body.appendChild(novoParagrafo);
 
-// inserir em um container
 
-var container = document.getElementById("container");
+//colocar  o novop dentro de container 
 
+
+var container = document.querySelector(' #container');
 console.log(container);
 
 var el = document.createElement("span");
+var texto = document.createTextNode("Texto dentro de span ");
+el.appendChild(texto);
 
-el.appendChild(document.createTextNode("texto do span"));
 
-console.log(el);
+container.appendChild(el)
+//removendo 
 
-container.appendChild(el);
+container.removeChild(el)
+
+
+
+container.appendChild()
