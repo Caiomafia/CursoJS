@@ -1,15 +1,18 @@
-// seleciona elemento
-var title = document.querySelector("#title");
+/*Selecionar  */
+var title = document.querySelector("#title")
 
-// adiciona o estilo
+// A mudança
 title.style.color = "red";
 
-// background-color
-title.style.backgroundColor = "yellow";
+//mudar com setinterval 
+
+ setInterval((title.style.backgroundColor = "yellow") ,5000)
 
 
-// selecionar elemento
-var subtitle = document.querySelector(".subtitle");
 
-// adicionar vários estilos
-subtitle.style.cssText = "color: blue; background-color: pink; font-size: 50px";
+ //Selecionar outro elemento
+
+ var subtitle = document.querySelector(".subtitle")
+ [
+subtitle.style.cssText = "color:white; background-color: pink; font-size:500px;"
+ ]
