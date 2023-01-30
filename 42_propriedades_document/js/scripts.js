@@ -5,8 +5,7 @@ console.log(document.head);
 
 console.log(document.links[0]);
 
-document.links[0].textContent = "Twitter";
-
+document.links[1].textContent = "CaioMafra"
 console.log(document.URL);
 
 console.log(document.title);
