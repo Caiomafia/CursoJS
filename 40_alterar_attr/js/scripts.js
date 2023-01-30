@@ -1,19 +1,29 @@
-// adicionar atributo
 var title = document.querySelector("#title");
 
-title.setAttribute("class", "testando-atributo");
+title.setAttribute("class" , "Testando-atributo");
 
-console.log(title);
+
+console.log(title)
+
+
+
+/*Add atributo  */
 
 var btn = document.querySelector("#btn");
 
-btn.setAttribute("disabled", "disabled");
 
-var subtitle = document.querySelector(".subtitle");
+/* Desativar */
+btn.setAttribute("disabled", "disable")
 
-subtitle.setAttribute("id", "titulo-2");
+var subtitle = document.querySelector(".subtitle")
 
-// remover atributo
-var lista = document.querySelector("#lista");
 
-lista.removeAttribute("id");
+
+subtitle.setAttribute("id" , "novo-atributo")
+
+
+console.log(subtitle)
+
+/*Remover atributo */
+
+subtitle.removeAttribute("id")
