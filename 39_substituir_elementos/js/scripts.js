@@ -1,21 +1,26 @@
-// criar um elemento
-var el = document.createElement("h3");
+/*Criar elemento*/ 
+
+var el = document.createElement("h1");
+
 
 el.classList = "testando-classe";
 
-var texto = document.createTextNode("Este é o texto do h3");
+var texto = document.createTextNode("Ola mundo")
 
 el.appendChild(texto);
 
-console.log(el);
 
-// selecionar o elemento que quero trocar
-var title = document.querySelector("#title");
+//seleciona elemento a ser trocado 
 
-console.log(title);
+var Titletext = document.querySelector("#title");
 
-// selecionar o pai do el
-var pai = title.parentNode;
+console.log(Titletext)
 
-// trocar os elementos
-pai.replaceChild(el, title);
+/*O pai do elemento*/
+
+var pai = Titletext.parentNode;
+
+
+/*Trocar */ 
+
+pai.replaceChild(el,Titletext)
