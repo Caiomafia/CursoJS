@@ -1,17 +1,12 @@
+
+console.log("Começando em .....")
 // setTimeout
-console.log("Antes do setTimeout");
-
-setTimeout(function() {
-
-  console.log("Testando o setTimeout");
-
-}, 2000);
-
-console.log("Depois do setTimeout");
+setTimeout(function(){console.log("Settimeout testando") } , 2000)
 
 // setInterval
-setInterval(function() {
 
-  console.log("Testando setInterval");
+ var loop = setInterval( function(){ console.log("Setinterval testando ...e")} , 1000)
 
-}, 1000);
+
+
+clearInterval(loop)
