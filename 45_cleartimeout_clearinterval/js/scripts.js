@@ -1,25 +1,23 @@
 // clearTimeout na prática
-var x = 0;
 
-var myTimer = setTimeout(function() {
-  console.log("O x é 0");
-}, 1500);
+let x = 0 ;
 
-x = 5;
+var timeout =setTimeout(function() { console.log("executo....")  } , 1500);
 
-if(x > 0) {
-  clearTimeout(myTimer);
-  console.log("O x passou de 0");
+
+x = 5 ;
+
+if(x > 0){
+  clearTimeout(timeout)
+  console.log("timeout foi encerrada")
 }
 
-// clearInterval na prática
-var myInterval = setInterval(function() {
-  console.log("Imprimindo interval");
-}, 500);
 
-setTimeout(function() {
+//cleatinterval 
 
-  console.log("Não precisamos mais repetir!");
-  clearInterval(myInterval);
 
-}, 1500);
+var interval = setInterval(function(){console.log("Testando o interval....")} , 1500)
+
+setTimeout(function(){ 
+  console.log("não precisamos mais dessa variavel aqui ")
+  clearInterval(interval)} , 10000)
